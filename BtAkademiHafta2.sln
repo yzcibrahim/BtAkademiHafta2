@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_LoopArray", "03_LoopArra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_DiziSiralama", "04_DiziSiralama\04_DiziSiralama.csproj", "{3A9DE0A5-9F75-4F17-A6BC-E893ADE6F76C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_hackerrank", "05_hackerrank\05_hackerrank.csproj", "{2FD768E3-19BC-44DA-A7C3-92682A4A0B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_hackerrank", "05_hackerrank\05_hackerrank.csproj", "{2FD768E3-19BC-44DA-A7C3-92682A4A0B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Odevler", "06_Odevler\06_Odevler.csproj", "{49486335-E706-4DF8-A8FA-92442CEEDE77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2FD768E3-19BC-44DA-A7C3-92682A4A0B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FD768E3-19BC-44DA-A7C3-92682A4A0B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FD768E3-19BC-44DA-A7C3-92682A4A0B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
