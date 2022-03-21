@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_hackerrank", "05_hackerr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Odevler", "06_Odevler\06_Odevler.csproj", "{49486335-E706-4DF8-A8FA-92442CEEDE77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KompleksTipler", "KompleksTipler\KompleksTipler.csproj", "{052180D4-9A00-46F9-B27F-E8E2CE93C85A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Kisiler", "07_Kisiler\07_Kisiler.csproj", "{6A769139-D725-4BA6-A043-FE7BD4F26C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49486335-E706-4DF8-A8FA-92442CEEDE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052180D4-9A00-46F9-B27F-E8E2CE93C85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052180D4-9A00-46F9-B27F-E8E2CE93C85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052180D4-9A00-46F9-B27F-E8E2CE93C85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052180D4-9A00-46F9-B27F-E8E2CE93C85A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A769139-D725-4BA6-A043-FE7BD4F26C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A769139-D725-4BA6-A043-FE7BD4F26C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A769139-D725-4BA6-A043-FE7BD4F26C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A769139-D725-4BA6-A043-FE7BD4F26C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

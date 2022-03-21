@@ -11,11 +11,28 @@ namespace _06_Odevler
             // Odev3MinMaxToplami();
             //Odev4AsalMi();
             //Odev5IlkNAsalSayi();
-            Odev6SayilarinKareleri();
-            
+            // Odev6SayilarinKareleri();
+
+            // Ozyinelemeli(1);
+            int result= Faktoriyel(5);
+            Console.WriteLine(result);
         }
 
-        
+        static void Ozyinelemeli(int a)
+        {
+            if(a<5)
+            Ozyinelemeli(a+1);
+        }
+
+        static int Faktoriyel(int sayi)
+        {
+            if (sayi == 1 || sayi == 0)
+                return 1;
+
+            return sayi * Faktoriyel(sayi - 1);
+
+        }
+
 
         static void Odev1DiziYazdir()
         {

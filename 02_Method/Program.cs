@@ -6,6 +6,22 @@ namespace _02_Method
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine(TamsayiDonenMethod());
+            //int s = TamsayiDonenMethod();
+            while (true)
+            {
+                int aa = Convert.ToInt32(Console.ReadLine());
+                int ouutOlarakGelenParametre;
+                if (CiftMi(aa,out ouutOlarakGelenParametre))
+                {
+                    Console.WriteLine($"{aa} çifttir");
+                }
+                else
+                {
+                    Console.WriteLine($"{aa} tektir");
+                }
+            }
+
             Console.WriteLine("Method nedir");
             IlkMethod();
             Selamla("ibrahim");
@@ -30,7 +46,32 @@ namespace _02_Method
         }
         static void Selamla(string kim)
         {
+           
             Console.WriteLine("merhaba" + kim);
+        }
+
+        static bool BoolMethod()
+        {
+            return true;
+        }
+
+        static bool CiftMi(int a,out int oupParam)
+        {
+            oupParam = 54;
+            if (a%2==0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+        static int TamsayiDonenMethod()
+        {
+            return 1;
         }
 
         static int Toplam(int a, int b=0)
