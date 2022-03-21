@@ -6,7 +6,6 @@ namespace _07_Kisiler
     {
         static void Main(string[] args)
         {
-
             Kisi yeniKis = new Kisi();
             yeniKis.Test = 15;
             yeniKis.Ad = "ibrahim";
