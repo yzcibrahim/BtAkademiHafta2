@@ -6,13 +6,7 @@ namespace _07_Kisiler
     {
         static void Main(string[] args)
         {
-            Kisi yeniKis = new Kisi();
-            yeniKis.Test = 15;
-            yeniKis.Ad = "ibrahim";
-            yeniKis.Soyad = "yazıcı";
-            Console.WriteLine(yeniKis.TamAd);
-            Console.WriteLine(yeniKis.Test);
-
+           
             Console.WriteLine("KİŞİ!!!");
 
             int kisiIndex = 0;
@@ -22,7 +16,7 @@ namespace _07_Kisiler
             {
                 Kisi k = new Kisi();
                 Console.WriteLine(@"Kişi oluşturmak için A Kişiyi yazdırmak için W giriniz Kişilerin yaşlarını 
- yazdırmak için Y, kişi Düzenlemek için D silmek için S, kişi bulmak için B giriniz:");
+ yazdırmak için Y, kişi Düzenlemek için D silmek için S, kişi bulmak için B, arama yapmak için 'ARA'  , sıralamak için O giriniz: ");
                 string islem = Console.ReadLine();
 
                 if (islem.ToUpper() == "A")
@@ -84,6 +78,45 @@ namespace _07_Kisiler
                         {
                             Console.WriteLine(kisiler[i].Yazdir());
                             break;
+                        }
+                    }
+
+                }
+                else if (islem.ToUpper() == "O")
+                {
+                    for (int i = 0; i < 5; i++)
+                    {
+                        for (int j = 0; j < 4; j++)
+                        {
+                            if (kisiler[j].Yas > kisiler[j + 1].Yas)
+                            {
+                                Kisi temp = kisiler[j];
+                                kisiler[j] = kisiler[j + 1];
+                                kisiler[j + 1] = temp;
+
+
+                            }
+                        }
+                    }
+                }
+                else if (islem.ToUpper() == "ARA")
+                {
+                    Console.WriteLine("Aranacak kelime giriniz:");
+                    string aranacakKelime = Console.ReadLine();
+
+                    for (int i = 0; i < kisiler.Length; i++)
+                    {
+                        if (kisiler[i].Ad.ToUpper() == aranacakKelime.ToUpper() || kisiler[i].Soyad.ToUpper()==aranacakKelime.ToUpper())
+                        {
+                            Console.WriteLine(kisiler[i].Yazdir());
+                        }
+                        //if (kisiler[i].Ad.ToUpper().Contains(aranacakKelime.ToUpper()) || kisiler[i].Soyad.ToUpper().StartsWith(aranacakKelime.ToUpper()))
+                        //{
+                        //    Console.WriteLine(kisiler[i].Yazdir());
+                        //}
+                        if (kisiler[i].Ad.ToUpper().EndsWith(aranacakKelime.ToUpper()) || kisiler[i].Soyad.ToUpper() == aranacakKelime.ToUpper())
+                        {
+                            Console.WriteLine(kisiler[i].Yazdir());
                         }
                     }
 

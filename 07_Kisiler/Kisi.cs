@@ -36,7 +36,7 @@ namespace _07_Kisiler
         public string Yazdir()
         {
            // Yas = DateTime.Today.Year - DogumYil;
-            return $"{Ad} {Soyad} {Yas}";
+            return $"{TamAd} {Yas}";
         }
     }
 }
